@@ -7,6 +7,7 @@ public class Game
         die1.roll();
         System.out.println(die1.getShowing());
         Die die2 = new Die();
+        
         die2.roll();
         System.out.println(die2.getShowing());
         
