@@ -11,7 +11,7 @@ public class Game
         die2.roll();
         System.out.println(die2.getShowing());
         System.out.println("Num dice = " +
-                           Die.getnumDice());
+                           Die.getNumDice());
         
     }
 }
