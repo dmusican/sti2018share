@@ -13,7 +13,7 @@ public class Die
         roll();
     }
 
-     public Die(int sidesToSet)
+    public Die()
     {
         numSides = sidesToSet;
         roll();
