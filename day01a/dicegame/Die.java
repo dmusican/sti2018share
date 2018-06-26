@@ -22,7 +22,7 @@ public class Die
 */
     public void setNumSides(int numSides)
     {
-        numSides = sidesToSet;
+        this.numSides = numSides;
     }
     
 }
