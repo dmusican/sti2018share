@@ -2,7 +2,8 @@
 public class Die
 {
     // static, or "class" variables
-    private static int 
+    private static int numDice = 0;
+    
     // instance variables
     private int showing;
     private int numSides;
@@ -13,6 +14,7 @@ public class Die
     {
         numSides = sidesToSet;
         roll();
+        numDice = n
     }
 
     public Die()
