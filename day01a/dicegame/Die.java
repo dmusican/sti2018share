@@ -15,7 +15,7 @@ public class Die
 
     public Die()
     {
-        numSides = sidesToSet;
+        numSides = 6;
         roll();
     }
 
