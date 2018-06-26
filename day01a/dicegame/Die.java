@@ -14,7 +14,7 @@ public class Die
     {
         numSides = sidesToSet;
         roll();
-        numDice = n
+        numDice = numDice + 1;
     }
 
     public Die()
