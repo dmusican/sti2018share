@@ -9,6 +9,9 @@ public class Cipher {
   {
     System.out.print("What is the word to be encoded? ");
     Scanner inp = new Scanner(System.in);
+    String original = inp.next();
+    // test
+    System.out.println(original);
     
   }
   
