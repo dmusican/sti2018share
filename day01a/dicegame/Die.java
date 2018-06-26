@@ -19,10 +19,10 @@ public class Die
     {
         numSides = sidesToSet;
     }
-*/
-    public void setNumSides(int numSides)
+
+    /*public void setNumSides(int numSides)
     {
         this.numSides = numSides;
-    }
+    }*/
     
 }
