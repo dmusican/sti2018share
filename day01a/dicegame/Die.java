@@ -15,15 +15,14 @@ public class Die
         return showing;
     }
     
+/*    public void setNumSides(int sidesToSet)
+    {
+        numSides = sidesToSet;
+    }
+*.
     public void setNumSides(int sidesToSet)
     {
         numSides = sidesToSet;
     }
-
-    public void setNumSides(int sidesToSet)
-    {
-        numSides = sidesToSet;
-    }
-
     
 }
