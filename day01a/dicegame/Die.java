@@ -5,10 +5,11 @@ public class Die
     private int showing;
     private int numSides;
     
-    // constructor
+    // constructor: same name as class
+    // automatically runs when objec
     public Die()
     {
-        }
+    }
     
     public void roll()
     {
