@@ -11,6 +11,7 @@ public class Die
     
     public int getShowing()
     {
-        
+        return showing;
+    }
 
 }
