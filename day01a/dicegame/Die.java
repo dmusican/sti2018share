@@ -27,7 +27,7 @@ public class Die
     public static int getNumDice()
     {
         return numDice;
-        }
+    }
 
     public void roll()
     {
