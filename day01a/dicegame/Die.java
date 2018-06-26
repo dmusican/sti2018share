@@ -10,6 +10,7 @@ public class Die
     public Die()
     {
         numSides = 6;
+        
     }
     
     public void roll()
