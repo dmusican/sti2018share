@@ -19,7 +19,7 @@ public class Cipher
     for (int i=0; i < original.length(); i++)
     {
       char letter = original.charAt(i);
-      char encryptedLetter = (char)((int)letter + key);
+      char encryptedLetter = (char)(letter + key);
       System.out.print(encryptedLetter);
     }
     
