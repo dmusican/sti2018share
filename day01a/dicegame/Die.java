@@ -6,9 +6,10 @@ public class Die
     private int numSides;
     
     // constructor: same name as class
-    // automatically runs when objec
+    // automatically runs when object is created
     public Die()
     {
+        numSides = 6;
     }
     
     public void roll()
