@@ -20,4 +20,10 @@ public class Die
         numSides = sidesToSet;
     }
 
+    public void setNumSides(int sidesToSet)
+    {
+        numSides = sidesToSet;
+    }
+
+    
 }
