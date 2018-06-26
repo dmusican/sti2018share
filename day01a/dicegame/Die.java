@@ -9,7 +9,7 @@ public class Die
     // automatically runs when object is created
     public Die(int sidesToSet)
     {
-        numSides = sides;
+        numSides = sidesToSet;
         roll();
     }
     
