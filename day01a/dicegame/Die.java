@@ -17,7 +17,7 @@ public class Die
     
     public void setNumSides(int sidesToSet)
     {
-        numSides = sidesToSet;
+        this.numSides = sidesToSet;
     }
 
 }
