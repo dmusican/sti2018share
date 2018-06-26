@@ -7,9 +7,9 @@ public class Die
     
     // constructor: same name as class
     // automatically runs when object is created
-    public Die(i)
+    public Die(int sidesToSet)
     {
-        numSides = 6;
+        numSides = sides;
         roll();
     }
     
