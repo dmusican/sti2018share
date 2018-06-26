@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * My Cipher class. Yes!
  */
