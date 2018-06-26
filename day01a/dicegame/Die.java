@@ -21,6 +21,7 @@ public class Die
     {
         numSides = 6;
         roll();
+        numD
     }
 
     public void roll()
