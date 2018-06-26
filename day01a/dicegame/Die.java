@@ -3,7 +3,7 @@ public class Die
 {
     // instance variables
     private int showing;
-    private int numSides;
+    private int numSides = ;
     
     public void roll()
     {
