@@ -7,7 +7,7 @@ public class Die
     
     public void roll()
     {
-        showing = (int)(Math.random()*6+1);
+        showing = (int)(Math.random()*numSides+1);
     }
     
     public int getShowing()
@@ -15,7 +15,7 @@ public class Die
         return showing;
     }
     
-/*    public void setNumSides(int sidesToSet)
+    public void setNumSides(int sidesToSet)
     {
         numSides = sidesToSet;
     }
