@@ -9,6 +9,8 @@ public class Die
         showing = (int)(Math.random()*6+1);
     }
     
-    
+    public int getShowing()
+    {
+        
 
 }
