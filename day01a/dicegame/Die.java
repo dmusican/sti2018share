@@ -5,6 +5,8 @@ public class Die
     private int showing;
     private int numSides;
     
+    // constr
+    
     public void roll()
     {
         showing = (int)(Math.random()*numSides+1);
