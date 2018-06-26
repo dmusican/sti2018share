@@ -6,6 +6,7 @@ public class Die
     
     public void roll()
     {
+        showing = (int)(Math.random()*6+1);
         
 
 }
