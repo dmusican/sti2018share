@@ -1,8 +1,9 @@
 
 public class Die
 {
-    // instance variable
+    // instance variables
     private int showing;
+    private int numSides;
     
     public void roll()
     {
