@@ -14,5 +14,7 @@ public class Die
     {
         return showing;
     }
+    
+    public v
 
 }
