@@ -1,7 +1,8 @@
 
 public class Die
 {
-    // static, or 
+    // static, or "class" variables
+    private static int 
     // instance variables
     private int showing;
     private int numSides;
