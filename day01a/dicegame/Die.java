@@ -24,7 +24,9 @@ public class Die
         numDice = numDice + 1;
     }
     
-    
+    public static int getNumSides()
+    {
+        
 
     public void roll()
     {
