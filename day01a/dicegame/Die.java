@@ -5,7 +5,10 @@ public class Die
     private int showing;
     private int numSides;
     
-    // constr
+    // constructor
+    public Die()
+    {
+        }
     
     public void roll()
     {
