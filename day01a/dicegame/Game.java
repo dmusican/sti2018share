@@ -5,5 +5,7 @@ public class Game
     {
         Die die1 = new Die();
         die1.roll();
-        
+        int value = die1.getShowing();
+        System.out.println(value);
+    }
 }
