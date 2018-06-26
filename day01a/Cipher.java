@@ -18,7 +18,7 @@ public class Cipher
     String result = "";
     for (int i=0; i < original.length(); i++)
     {
-      System.out.println(i);
+      System.out.print(i);
     }
     
   }
