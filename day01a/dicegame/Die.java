@@ -24,9 +24,10 @@ public class Die
         numDice = numDice + 1;
     }
     
-    public static int getNumD()
+    public static int getNumDice()
     {
-        return numSide
+        return numDice;
+        }
 
     public void roll()
     {
