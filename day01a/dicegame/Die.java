@@ -15,6 +15,8 @@ public class Die
         return showing;
     }
     
-    public void setNumSides(int sidesToSEt
+    public void setNumSides(int sidesToSet)
+    {
+
 
 }
