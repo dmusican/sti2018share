@@ -7,7 +7,17 @@ public class Parameters {
     t = t + "a";
   }
   
+  public static void addToFirst(int[] theArray) {
+    theArray[0] = theArray[0] + 1;
+  }
+  
   public static void main(String[] args) {
+
+    int[] anArray = {5,3,7};
+    addToFirst(anArray);
+    System.out.println(anArray[0]);
+    
+    
     int y = 0;
     addOne(y);
     System.out.println(y);
