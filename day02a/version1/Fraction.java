@@ -1,7 +1,20 @@
 public class Fraction {
    private int numerator;
    private int denominator;
+
+   public static Fraction multiply(Fraction f1,
+                                Fraction f2) {
+      int newNumerator = f1.getNumerator() *
+                        f2.getNumerator();
    
+      int newDenominator = f1.getDenominator() *
+                          f2.getDenominator();
+     
+      return new Fraction(newNumerator,
+                          newDenominator);
+                                
+   }
+      
    public Fraction(int num, int den) {
       numerator = num;
       denominator = den;
