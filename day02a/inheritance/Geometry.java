@@ -14,5 +14,6 @@ public class Geometry {
       }
       System.out.println(s.area());
       System.out.println(s.perimeter());
+      System.out.println(s.getName());
    }
 }

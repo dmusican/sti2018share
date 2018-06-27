@@ -1,10 +1,12 @@
 public class Rectangle implements Shape {
    private double length;
    private double width;
+   private String name;
    
    public Rectangle() {
       length = 6;
       width = 5;
+      name = "ThoughtfulRectangle";
    }
    
    public double area() {
@@ -17,5 +19,9 @@ public class Rectangle implements Shape {
    
    public int getNumSides() {
       return 4;
+   }
+   
+   public String getName() {
+      return name;
    }
 }
