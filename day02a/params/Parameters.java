@@ -3,10 +3,18 @@ public class Parameters {
     x = x + 1;
   }
   
+  public static void addText(String t) {
+    t = t + "a";
+  }
+  
   public static void main(String[] args) {
     int y = 0;
     addOne(y);
     System.out.println(y);
+    
+    String s = "hello";
+    addText(s);
+    System.out.println(s);
   }
 }
 
