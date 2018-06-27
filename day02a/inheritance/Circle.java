@@ -15,7 +15,5 @@ public class Circle implements Shape {
       return 2 * Math.PI * radius;
    }
    
-   public String getName() {
-      return name;
-   }
+
 }

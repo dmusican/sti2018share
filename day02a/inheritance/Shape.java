@@ -1,5 +1,8 @@
 public interface Shape {
    public double area();
    public double perimeter();
-   public String getName();
+   public String getName() {
+      return name;
+   }
+
 }

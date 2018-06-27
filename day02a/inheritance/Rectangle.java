@@ -21,7 +21,4 @@ public class Rectangle implements Shape {
       return 4;
    }
    
-   public String getName() {
-      return name;
-   }
 }
