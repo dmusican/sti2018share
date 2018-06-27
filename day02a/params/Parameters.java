@@ -40,6 +40,13 @@ public class Parameters {
     Object obj2 = obj1;
     System.out.println(obj1.hashCode());
     System.out.println(obj2.hashCode());
+    
+    System.out.println("-------------");
+    int xx = 0;
+    int yy = xx;
+    xx = xx + 1;
+    System.out.println(yy);
+    
   }
 }
 
