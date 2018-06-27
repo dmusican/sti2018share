@@ -6,4 +6,9 @@ public class Fraction {
       numerator = num;
       denominator = den;
    }
+   
+   public void display() {
+      System.out.println(numerator + "/"
+                            + denominator);
+   }
 }
