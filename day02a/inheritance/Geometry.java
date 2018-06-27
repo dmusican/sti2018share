@@ -9,9 +9,10 @@ public class Geometry {
          s = new Circle();
       } else {
          s = new Rectangle();
-         System.out.println(s.getNumSides());
       }
       System.out.println(s.area());
       System.out.println(s.perimeter());
+      Rectangle reallyR = new Rectangle();
+      System.out.println(reallyR.getNumSides());
    }
 }
