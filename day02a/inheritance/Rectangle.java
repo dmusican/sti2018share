@@ -5,7 +5,7 @@ public class Rectangle extends Shape {
    public Rectangle() {
       length = 6;
       width = 5;
-      name = "ThoughtfulRectangle";
+      //name = "ThoughtfulRectangle";
    }
    
    public double area() {
