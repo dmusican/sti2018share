@@ -13,6 +13,7 @@ public class Parameters {
     System.out.println(y);
     
     String s = "hello";
+    System.out.println(s.hashCode());
     addText(s);
     System.out.println(s);
   }
