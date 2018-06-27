@@ -1,6 +1,5 @@
 public class Circle extends Shape {
    private double radius;
-   private String name;
    
    public Circle() {
       radius = 3;

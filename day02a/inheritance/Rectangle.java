@@ -1,7 +1,6 @@
 public class Rectangle extends Shape {
    private double length;
    private double width;
-   private String name;
    
    public Rectangle() {
       length = 6;
