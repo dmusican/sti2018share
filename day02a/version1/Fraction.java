@@ -11,4 +11,13 @@ public class Fraction {
       System.out.println(numerator + "/"
                             + denominator);
    }
+   
+  public int getNumerator() {
+      return numerator;
+  }
+  
+  public int getDenominator() {
+      return denominator;
+  }
+
 }
