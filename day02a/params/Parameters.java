@@ -22,11 +22,11 @@ public class Parameters {
   }
   public static void main(String[] args) {
 
-    int[] anArray = {5,3,7};
-    cathyAddToFirst(anArray);
-    System.out.println(anArray[0]);
+    int[] aaaArray = {5,3,7};
+    cathyAddToFirst(aaaArray);
+    System.out.println(aaaArray[0]);
 
-    anArray = {5,3,7};
+    int[] anArray = {5,3,7};
     addToFirst(anArray);
     System.out.println(anArray[0]);
 
