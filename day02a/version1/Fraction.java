@@ -2,7 +2,7 @@ public class Fraction {
    private int numerator;
    private int denominator;
 
-   public static Fraction multiply(Fraction f1,
+   public Fraction multiply(Fraction f1,
                                 Fraction f2) {
       int newNumerator = f1.getNumerator() *
                         f2.getNumerator();
