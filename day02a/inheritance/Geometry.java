@@ -12,7 +12,6 @@ public class Geometry {
       }
       System.out.println(s.area());
       System.out.println(s.perimeter());
-      Rectangle reallyR = new Rectangle();
-      System.out.println(reallyR.getNumSides());
+      System.out.println(s.getNumSides());
    }
 }
