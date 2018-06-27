@@ -47,6 +47,11 @@ public class Parameters {
     xx = xx + 1;
     System.out.println(yy);
     
+    int[] nums = {7,2,3};
+    int[] others = nums;
+    nums[0] = 12;
+    System.out.println(others[0]);
+    
   }
 }
 
