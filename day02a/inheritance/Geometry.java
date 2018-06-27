@@ -4,10 +4,12 @@ public class Geometry {
       Scanner input = new Scanner(System.in);
       System.out.print("(c)ircle or (r)ectangle? ");
       String response = input.next();
-      if (response.equals("c"))
+      Circle or Rectangle s;
+      if (response.equals("c")) {
          Circle s = new Circle();
-      else
+      } else {
          Rectangle s = new Rectangle();
+      }
       System.out.println(s.area());
       System.out.println(s.perimeter());
    }
