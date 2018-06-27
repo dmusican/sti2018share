@@ -5,13 +5,11 @@ public class Geometry {
       System.out.print("(c)ircle or (r)ectangle? ");
       String response = input.next();
       if (response.equals("c")) {
-         Circle c = new Circle();
-         System.out.println(c.area());
-         System.out.println(c.perimeter());
+         Circle s = new Circle();
       } else {
-         Rectangle r = new Rectangle();
-         System.out.println(r.area());
-         System.out.println(r.perimeter());
+         Rectangle s = new Rectangle();
       }
+      System.out.println(s.area());
+      System.out.println(s.perimeter());
    }
 }
