@@ -4,7 +4,6 @@ public class Parameters {
   }
   
   public static void addText(String t) {
-    System.out.println(t.hashCode());
     t = t + "a";
   }
   
@@ -14,9 +13,13 @@ public class Parameters {
     System.out.println(y);
     
     String s = "hello";
-    System.out.println(s.hashCode());
     addText(s);
     System.out.println(s);
+    
+    Object x = new Object();
+    Object y = x;
+    System.out.println(x.hashCode());
+    System.out.println(y.hashCode());
   }
 }
 
