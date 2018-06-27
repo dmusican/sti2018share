@@ -16,10 +16,10 @@ public class Parameters {
     addText(s);
     System.out.println(s);
     
-    Object x = new Object();
-    Object y = x;
-    System.out.println(x.hashCode());
-    System.out.println(y.hashCode());
+    Object obj1 = new Object();
+    Object obj2 = obj1;
+    System.out.println(obj1.hashCode());
+    System.out.println(obj2.hashCode());
   }
 }
 
