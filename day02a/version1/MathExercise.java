@@ -19,5 +19,6 @@ public class MathExercise {
       frac1.display();
       Fraction answer = multiply(frac1, frac2);
       answer.display();
+      System.out.println(Math.PI);
    }
 }
