@@ -7,9 +7,9 @@ public class Rectangle implements Shape {
       width = 5;
    }
    
-   public double area() {
+   /*public double area() {
       return length * width;
-   }
+   }*/
    
    public double perimeter() {
       return 2 * (length + width);
