@@ -10,12 +10,22 @@ public class Parameters {
   public static void addToFirst(int[] theArray) {
     theArray[0] = theArray[0] + 1;
   }
-  
+
+  public static void otherAddToFirst(int[] theArray) {
+    theArray = new int[3];
+    theArray[0] = 7;
+  }
+
   public static void main(String[] args) {
 
     int[] anArray = {5,3,7};
     addToFirst(anArray);
     System.out.println(anArray[0]);
+
+    int[] myArray = {5,3,7};
+    otherAddToFirst(myArray);
+    System.out.println(myArray[0]);
+
     
     
     int y = 0;
