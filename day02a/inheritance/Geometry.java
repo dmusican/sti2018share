@@ -12,6 +12,6 @@ public class Geometry {
       }
       System.out.println(s.area());
       System.out.println(s.perimeter());
-      System.out.println(s.getNumSides());
+      System.out.println(((Rectangle)s).getNumSides());
    }
 }
