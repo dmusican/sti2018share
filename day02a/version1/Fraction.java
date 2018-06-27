@@ -2,13 +2,12 @@ public class Fraction {
    private int numerator;
    private int denominator;
 
-   public Fraction multiply(Fraction f1,
-                                Fraction f2) {
-      int newNumerator = f1.getNumerator() *
-                        f2.getNumerator();
+   public Fraction multiply(Fraction other) {
+      int newNumerator = getNumerator() *
+                        other.getNumerator();
    
-      int newDenominator = f1.getDenominator() *
-                          f2.getDenominator();
+      int newDenominator = getDenominator() *
+                          other.getDenominator();
      
       return new Fraction(newNumerator,
                           newDenominator);
