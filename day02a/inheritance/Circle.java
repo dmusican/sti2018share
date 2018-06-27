@@ -1,4 +1,4 @@
-public class Circle implements Shape {
+public class Circle extends Shape {
    private double radius;
    private String name;
    
