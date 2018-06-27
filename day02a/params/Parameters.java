@@ -4,6 +4,7 @@ public class Parameters {
   }
   
   public static void addText(String t) {
+    System.out.println(t.hashCode());
     t = t + "a";
   }
   
