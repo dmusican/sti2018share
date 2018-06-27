@@ -1,5 +1,5 @@
 public abstract class Shape {
-   private String name;
+   protected String name;
 
    public abstract double area();
    public abstract double perimeter();
