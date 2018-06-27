@@ -1,4 +1,4 @@
-public class MathExercise {
+public class MathExercise { 
 
    public static Fraction multiply(Fraction f1,
                                 Fraction f2) {
