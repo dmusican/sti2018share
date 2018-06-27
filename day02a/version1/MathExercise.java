@@ -3,4 +3,3 @@ public class MathExercise {
       Fraction frac1 = new Fraction(3,5);
    }
 }
-   
