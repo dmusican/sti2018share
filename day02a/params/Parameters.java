@@ -16,9 +16,17 @@ public class Parameters {
     theArray[0] = 7;
   }
 
+  public static void cathyAddToFirst(int[] theArray) {
+    int[] newArray = theArray;
+    newArray[0] = 7;
+  }
   public static void main(String[] args) {
 
     int[] anArray = {5,3,7};
+    cathyAddToFirst(anArray);
+    System.out.println(anArray[0]);
+
+    anArray = {5,3,7};
     addToFirst(anArray);
     System.out.println(anArray[0]);
 
