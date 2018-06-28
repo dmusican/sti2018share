@@ -5,8 +5,8 @@ public class TwoDGoodness {
     for (String arg : args) {
       System.out.println(arg);
     }
-    int numRows = 4;
-    int numCols = 7;
+    int numRows = args[0];
+    int numCols = args[1];
     int[][] grid = new int[numRows][numCols];
     
     for (int i=0; i < grid.length; i++) {
