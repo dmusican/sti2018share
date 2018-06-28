@@ -1,5 +1,10 @@
 public class TwoDGoodness {
   public static void main(String[] args) {
+    System.out.println("Hmm, what's here?");
+    System.out.println("Array size is " + args.length);
+    for (String arg : args) {
+      System.out.println(arg);
+    }
     int numRows = 4;
     int numCols = 7;
     int[][] grid = new int[numRows][numCols];
