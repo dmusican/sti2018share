@@ -1,5 +1,5 @@
-/*
- * djhflkj
+/**
+ * @author Dave Musicant with 2018 workshop
  */
 public class TwoDGoodness {
   public static void main(String[] args) {
