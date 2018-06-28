@@ -8,6 +8,11 @@ public class TwoDGoodness {
       }
     }
     
-    
+    for (int[] row : grid) {
+      for (int value : row) {
+        System.out.print(value + " ");
+      }
+      System.out.println();
+    }
   }
 }
