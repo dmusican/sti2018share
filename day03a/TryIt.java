@@ -4,4 +4,8 @@ public class TryIt {
     String s2 = new String("hello");
     System.out.println(s1 == s2);
   }
+  
+  public void talk() {
+    System.out.println("Hi friend");
+  }
 }
