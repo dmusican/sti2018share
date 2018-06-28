@@ -1,0 +1,49 @@
+For general programming projects, we'll use the following scoring guidelines.
+
+Each section has a 5 point scale.
+
+5: Best. Essentially no room for improvement.
+4: Better. Minor room for improvement.
+3: Good. Some room for improvement
+2: Fair. Ample room for improvement
+1: Poor.
+0. No attempt made at all.
+
+==========================
+
+Correctness: "To what extent is your code consistent with our specifications and free of bugs?"
+- If the code works exactly as expected, no batter how bad the code looks, this section gets a 5.
+- If the code doesn't compile or or doesn't work on nearly all tests, this section should get a 1 regardless of effort.
+- When running against multiple tests, it's easy to fall into a trap of grading on percentage of tests passed. Don't do that, at least, not if it isn't appropriate. It might be the case, for example, that a few tests are on core functionality and then a bunch of them are on obscure edge cases. They shouldn't get a 5 unless they are all correct, but presumably getting the core functionality correct warrants a 3 (depending on the assignment).
+
+
+===========================
+
+Design: "To what extent is your code written well (i.e., clearly, efficiently, elegantly, and/or logically?")
+- This is the place where feedback to the students can be most useful.
+- Ask yourself: are there things I would have done differently that would have improved the code?
+- Do your best to keep in mind the level where students are at. To the extent that you can, hold them to high standards, but also try to be reasonable about what they realistically know at the state that they're at.
+- It is completely reasonable to give a 4 if you've got a solid recommendation to make.
+
+Examples of the sorts of problematic things you might look for, but this is only intended as a starting point:
+- Uses a loop to calculate something when a direct formula would suffice
+- Functions / methods are way too long, or don't represent coherent purpose (later in the term)
+- Uses large amounts of repeated code when a loop would be better
+
+... Etc. This is distinct from the next section (style). The key distinction is that style is about how readable your code is, whereas design is about how you chose to write your code.
+
+=======================
+
+Style: "To what extent is your code readable (i.e. good variable naming, well spaced, commented appropriately, etc.)?
+- Ask yourself: are there ways this code could have been made easier to read and understand?
+
+=======================
+
+"Last points": Sometimes I'll assign a reach task for a last point or two. Score these separately and add them on if acheived.
+
+
+Final score = 3*correctness + 2*design + 1*style + last point(s).
+
+
+
+[Citation: these ideas are largely from the Harvard CS50 grading criteria, though I modified them for my purposes.]
