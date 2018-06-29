@@ -3,7 +3,6 @@ public class RecursionCoolness {
     if (n == 1) {
       return 1;
     } else {
-      System.out.print(n + "*");
       return n * fact(n-1);
     }
   }
@@ -27,11 +26,23 @@ public class RecursionCoolness {
         return maxRest;
       }
     }
+  }
+  
+  public static void solveHanoi(int n, int start, int finish, int temp) {
+    if (n==1) {
+      System.out.println("Move disc from " + start + " to " + finish);
+    } else {
+      solveHanoi(n-1, start, temp, finish);
+      System.out.println("Move disc from " + start + " to " + finish);
+      solveHanoi(n-1, temp, finish, start);
+    }
+  }
   
   public static void main(String[] args) {
-    System.out.println(fact(5));
+    /*System.out.println(fact(5));
     System.out.println(reverse("friend"));
     int[] mynums = {5,2,5,1,10,3};
-    System.out.println(findMax(mynums,0));
+    System.out.println(findMax(mynums,0));*/
+    solveHanoi(5, 1, 3, 2);
   }
 }
