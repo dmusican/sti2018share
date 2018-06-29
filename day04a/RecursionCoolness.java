@@ -3,6 +3,7 @@ public class RecursionCoolness {
     if (n == 1) {
       return 1;
     } else {
+      System.out.print(n + "*");
       return n * fact(n-1);
     }
   }
