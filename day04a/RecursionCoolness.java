@@ -43,6 +43,6 @@ public class RecursionCoolness {
     System.out.println(reverse("friend"));
     int[] mynums = {5,2,5,1,10,3};
     System.out.println(findMax(mynums,0));*/
-    solveHanoi(5, 1, 3, 2);
+    solveHanoi(4, 1, 3, 2);
   }
 }
